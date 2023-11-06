@@ -41,16 +41,17 @@
   background: #171515;
   /* color: white; */
 }
-
-
-
+.experience{
+ 
+background-color:rgba(85, 15, 15, 0.589)
+}
 .bioprofile{
   
    /* background-image: url('/home/srikanth/Downloads/portimage.jpeg')  ;    */
   background-image: 
   url('https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=2000');
- margin-top: -20px;
-  height:120vh;
+  margin-top: -20px;
+  height:100vh;
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -59,6 +60,8 @@
 }
 .headline{
   color: black;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 
 }
 .wrapper{
@@ -66,7 +69,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: blue;
   background:rgba(0, 0, 0, 0.1);
   height: 100vh;
 }
