@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <div className='bioprofile'>
        <div className='wrapper'>
-        <h1 className='display-4'>Hi , I am   Sharath Shet</h1>
+        <h1 className=''>Hi , I am   Sharath Shet</h1>
         
         <p className='headline'>I am Software Developer ,
         Specialied in Backend Development with Full-Stack Development Skills Focused on Backend Mastery</p>
