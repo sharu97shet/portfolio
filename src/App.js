@@ -1,18 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap-utilities.css'
 import Profile from './components/Profile';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
-import Footer from './components/Footer';
+import About from './components/About';
 function App() {
   return (
     <div className="App">
       <Profile/>
       <hr></hr>
-      <Experience/>
+      <About/>
+      
       <Skills/>
-      <Footer/>
+     <Experience/> 
+     
      
     </div>
   );

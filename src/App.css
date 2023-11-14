@@ -1,3 +1,8 @@
+/* body {
+  font-family:   'Poppins', serif;
+} */
+
+
 .App {
   margin: 0px;
   /* text-align: center; */
@@ -42,8 +47,9 @@
   /* color: white; */
 }
 .experience{
+  background-color:rgba(229, 233, 10, 0.589)
  
-background-color:rgba(85, 15, 15, 0.589)
+/* background-color:rgba(85, 15, 15, 0.589) */
 }
 
 .cssskill{
@@ -109,13 +115,13 @@ background-color:rgba(85, 15, 15, 0.589)
   height:100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  
-  /* background-position:bottom;   */
- 
+   filter: brightness(115%); /* Adjust the percentage as needed */
 }
+  
+ 
 .headline{
   color: black;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+ /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 
 
 }
@@ -124,9 +130,163 @@ background-color:rgba(85, 15, 15, 0.589)
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: italic;
   color: blue;
   background:rgba(0, 0, 0, 0.1);
   height: 100vh;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about .content ul strong {
+  margin-right: 10px;
+}
+
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #0563bb;
+  line-height: 0;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+
+@media (max-width: 800px) {
+  .bioprofile {
+    background-image: 
+    url('https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=2000');
+    /* Additional styles for smaller screens if needed */
+  }
 }
 
 .App-logo {
