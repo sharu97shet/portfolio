@@ -9,7 +9,9 @@ const About = () => {
 
         <div class="section-title">
           <h2>About</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Presenting Sharath N Shet ,a Software Engineer with 2.5 years of  experience.With a Demonstrated history of working in the information technology and Services industry.
+            
+          </p>
         </div>
 
         <div class="row">
