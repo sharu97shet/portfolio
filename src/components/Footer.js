@@ -1,7 +1,7 @@
 import React from 'react'
 import '../footer.css'
 import { FaFacebookF, FaTwitter,FaInstagram,FaLinkedinIn,FaYoutube } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+
 
 
 const Footer = () => {
@@ -34,9 +34,9 @@ const Footer = () => {
                         </ul>
                         <ul className="box">
                             <li className="link_name">Services</li>
-                            <li><a href="#">App design</a></li>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Logo design</a></li>
+                            <li><a href="#">App Development</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Backend Development</a></li>
                             <li><a href="#">Banner design</a></li>
                         </ul>
                         <ul className="box">
@@ -50,8 +50,8 @@ const Footer = () => {
                             <li className="link_name">Courses</li>
                             <li><a href="#">HTML & CSS</a></li>
                             <li><a href="#">JavaScript</a></li>
-                            <li><a href="#">Photography</a></li>
-                            <li><a href="#">Photoshop</a></li>
+                            <li><a href="#">React Js</a></li>
+                            <li><a href="#">NoSQL</a></li>
                         </ul>
                         {/* <ul className={`${footerStyles.box} ${footerStyles['input-box']}`}>
                             <li className={footerStyles.link_name}>Subscribe</li>
