@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/Bootstrap-icons/bootstrap-icons.css'
 
- import  './footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap-icons/bootstrap-icons.css'
-// import '@fortawesome/fontawesome-free/css/all.min.css';
+
+//import 'bootstrap-icons/bootstrap-icons.css'
+//  import '@fortawesome/fontawesome-free/css/all.min.css';
 import Profile from './components/Profile';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
