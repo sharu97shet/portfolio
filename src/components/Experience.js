@@ -49,9 +49,9 @@ const Experience = () => {
                </ul>
             </div>
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <h4>Software Developer </h4>
+              <h5>2021 (January) - 2023(April)</h5>
+              <p><em>Access Automation Pvt Ltd.</em></p>
               <ul>
                 <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
                 <li>Managed up to 5 projects or tasks at a given time while under pressure</li>

@@ -123,8 +123,11 @@ border: 1px solid rgba(74, 72, 81, 0.07);
 .bioprofile{
   
    /* background-image: url('/home/srikanth/Downloads/portimage.jpeg')  ;    */
+  /* background-image: 
+  url('https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=2000'); */
+
   background-image: 
-  url('https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=2000');
+  url('https://images.unsplash.com/photo-1617042375876-a13e36732a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE4fHxkZXZlbG9wZXJ8ZW58MHx8fHwxNjY1NTk2Nzgx&ixlib=rb-1.2.1&q=80&w=2000');
   margin-top: -20px;
   height:100vh;
   background-repeat: no-repeat;
@@ -134,7 +137,7 @@ border: 1px solid rgba(74, 72, 81, 0.07);
   
  
 .headline{
-  color: black;
+  color: whitesmoke;
  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 
 
@@ -434,9 +437,12 @@ background: radial-gradient(circle, #4f46e4 10%, transparent 11%);
 
 
 @media (max-width: 800px) {
+
   .bioprofile {
     background-image: 
-    url('https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=2000');
+  url('https://images.unsplash.com/photo-1617042375876-a13e36732a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE4fHxkZXZlbG9wZXJ8ZW58MHx8fHwxNjY1NTk2Nzgx&ixlib=rb-1.2.1&q=80&w=2000');
+    /* background-image: 
+    url('https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=2000'); */
     /* Additional styles for smaller screens if needed */
   }
 }
