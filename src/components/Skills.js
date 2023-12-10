@@ -80,10 +80,10 @@ const Skills = () => {
 
   <div class="progress">
 
-    <span class="skill">🐍python  <i class="val">75%</i></span>  
+    <span class="skill">🐍python  <i class="val">85%</i></span>  
 
     <div class="progress-bar-wrap">
-     <div class="progress-bar" role="progressbar" aria-valuenow="50"  style={{width: "75%"}} aria-valuemin="0" 
+     <div class="progress-bar" role="progressbar" aria-valuenow="50"  style={{width: "85%"}} aria-valuemin="0" 
     aria-valuemax="100"></div>
     </div>
 
@@ -111,10 +111,10 @@ aria-valuemax="100"></div>
     </div>  
 
     <div class="progress">
-     <span class="skill">Django Framework <i class="val">70%</i></span>  
+     <span class="skill">Django Framework <i class="val">80%</i></span>  
      
      <div class="progress-bar-wrap">
-    <div class="progress-bar" role="progressbar" aria-valuenow="50"  style={{width: "70%"}} aria-valuemin="0" 
+    <div class="progress-bar" role="progressbar" aria-valuenow="50"  style={{width: "80%"}} aria-valuemin="0" 
     aria-valuemax="100"></div>
     </div>
 
